@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- 
+Q: Difference between div and span ?
+
+Ans : Div is a block level Element 
+Div occupies 100% width of our screen
+Div Elements always comes in the next line 
+
+Span:Span is a Inline Element 
+Span occupies that how much content that is required 
+Span elements comes in the same line  -->
+
+<!-- Example: -->
+
+<!-- 
+
+<Div style="background-color: yellow;">Vijay</Div>
+<Div style="background-color: orangered;">Kumar</Div>
+<span style="background-color: yellow;">Vijay</span>
+<span style="background-color: orangered;">Kumar</span> -->
+
+<!-- ******************************************************************************** -->
+
+<!-- 2 ) Difference between class and IDs ? -->
+
+<!-- Class:An element can have multiple classes
+Class need to be represented with * in css
+
+Id:An element can have only one id 
+Id need to be represented with # in css -->
+
+<!-- Example -->
+
+<!-- <div class="box1 box2">These is class element</div>
+<div class="box2">These is class element2</div> -->
+<!-- 
+<div id="box1 box2">These is id element</div>
+<div id="box2">These is id  element2</div> -->
+
+<!-- *********************************************************************************** -->
+<!-- 
+What are self closing tags ?
+
+Self closing tags are the tags that which doesnt require the closing tag
+
+ex:hr tag,img tag,input tag ,br tag 
+
+Example:
+
+<hr>
+<br>
+<img src="" alt="">
+<input type="text"> -->
+
+<!-- ************************************************************************ -->
+
+<!-- How many types of headings are der ?How to decide which to use where ?
+
+Ans: There are six types of headings which ranges from h1 to h6
+
+Where h1 is the highest heading and h6 is the smallest heading 
+
+Example: -->
+
+<!-- <h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6> -->
+
+<!-- h1 is the largest heading tag and h6 is the smallest one. So h1 is used for most important heading and h6 is used for least important. -->
+<!-- 
+********************************************************************* -->
+<!-- 
+Difference between block and inline -->
+<!-- 
+Block:Block elements are the elements that which occupies 100% width of our screen 
+
+Block elements always comes in the next line 
+
+Ex:h1 to h6,div,p,hr tag and br tag 
+
+Inline :Inline elements are the elements that occupies that how much content that is required
+
+Inline elements comes in the same line 
+
+Ex:img tag ,input tag,span tag,strong,em tag,b tag  -->
+
+<!-- ******************************************************************* -->
+
+<!-- Difference between em and strong ?
+
+Em :Em tag is the emphasis tag which looks similar to italic tag 
+Strong tag:Strong tag is the tag which looks similar to bold tag 
+
+But the difference is ‘em’ and ‘strong’ should be used as they indicate semantic meaning (i.e. ‘This text or word is more important than the others’) as well as how the text should look (i.e. ‘This word should be bold or italic’), whereas ‘b’and ‘i’ only do the latter.
+
+As the link explains, ‘b’ and ‘i’ may suffice for the web, but they may cause intelligibility problems for HTML pages displayed on other devices such as PDAs and mobiles.
+-->
+
+<!-- **************************************************************** -->
+
+<!-- What are attributes? 
+
+Attributes : Attributes provide additional information about elements
+
+Attributes always come in the starting tag 
+
+Attributes comes in the key value pair 
+
+Ex:href,src,class,id,style,width and height
+
+<img src="" alt=""> -->
+<!-- 
+************************************************************************* -->
+
+<!-- Difference between HTML tags and elements ?
+
+Elements:Elements means which is having the combination of the both the tag and the content 
+
+Example:
+
+<p>These is the content </p>
+
+Here p is the tag
+ 
+in b/w there is content these is called the element 
+
+Tag:Tags are the ones which having the closing tag and the oening tags and some tags doesnt require the closing tags 
+
+Example:
+
+<p></p>
+<h1></h1>
+<img src="" alt="">
+<br>
+<hr> -->
+
+<!-- *********************************************************************** -->
+<!-- 
+Explain br tags ? -->
+
+<!-- Br tag is tha tag which will break the line and comes in the next line  -->
+<!-- 
+<span>These is sentence 1</span> 
+<span>These is sentence 2</span> -->
+<!-- 
+Now both the content 1 and the content 2 will come in the same line  -->
+
+<!-- <span>These is sentence 1</span>  <br>
+<span>These is sentence 2</span> -->
+
+<!-- Now after sentence 1 there will be break in the line and sentence 2 will be coming the second line  -->
+
+<!-- *********************************************************************** -->
+
+<!-- What are semantic tags? 
+
+semantic tags are the tags which describes its meaning to the both the browser and the developer 
+
+semantic elements=elements with meaning
+
+ex:header,footer,nav,section,tables,forms etc.. -->
+
+<!-- 
+************************************************************************ -->
+<!-- 
+Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two ?-->
+
+<!-- <form action="">
+ <input type="radio" id="MERN" name="Language" value="MERN">   
+<label for="MERN">MERN</label><br>
+<input type="radio" id="MEVN" name="Language" value="MEVN">   
+<label for="MEVN">MEVN</label><br>
+<input type="radio" id="MEAN" name="Language" value="MEAN">   
+<label for="MEAN">MEAN</label><br>
+
+<input type="checkbox" id="HTML" name="Language1" value="HTML">   
+<label for="HTML">HTML</label><br>
+<input type="checkbox" id="CSS" name="Language2" value="CSS">   
+<label for="CSS">CSS</label><br>
+<input type="checkbox" id="JS" name="Language3" value="JS">   
+<label for="JS">JS</label><br>
+
+<input type="submit">
+
+</form>
+
+Radio button is used to select only one option 
+whereas checkbox is used to select multiple options -->
+
+<!-- *********************************************************************** -->
+<!-- 
+Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this. -->
+
+<!-- <table border="1px" width="300px" height="50px">
+
+<tr>
+
+    <td>Name</td>
+    <td>salary</td>
+
+</tr>
+
+<tr>
+    <td>Vijay</td>
+    <td>30,000</td>
+</tr>
+
+</table> -->
+<!-- 
+******************************************************************* -->
+
+<!-- Create ordered, unordered and description lists with their types ?--
+
+ordered List:Ordered List is the list in which lists will be having an proper sequence 
+
+Types of ordered list:
+
+1)Number
+2)Capital Roman
+3)Small Roman
+4)Capital Alphabet
+5)Small Alphabet -->
+
+<!-- By default ordered list is Number  -->
+<!-- 
+<ol type="1">
+
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+
+</ol>
+
+
+<ol type="I">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    
+</ol>
+
+<ol type="i">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    
+    </ol>
+
+    <ol type="A">
+
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        
+        </ol>
+    
+        <ol type="a">
+
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            
+            </ol>
+             -->
+            
+<!-- In unordered list they are four types they are 
+
+1)Disc(default)
+2)Circle
+3)Square
+4)None
+
+<ul type="Disc">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+
+</ul>
+
+<ul type="Square">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+
+</ul>
+
+<ul type="Circle">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+
+</ul>
+
+<ul type="None">
+
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+
+</ul> -->
+
+<!-- Description List:
+
+<dl>
+
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+
+</dl> -->
+
+
+
+<!-- 
+************************************************************************ -->
+
+<!-- Create a table and explain how to acheive colspan
+
+
+<table border="1px" width="300px" height="150px">
+
+<tr>
+
+    <th colspan="2">Language and Framework</th>
+   
+</tr>
+
+<tr>
+
+    <td >Python</td>
+    <td>Django</td>
+
+</tr>
+
+<tr>
+
+    <td>Javascript</td>
+    <td>React.js</td>
+
+</tr>
+
+<tr>
+
+    <td>Ruby</td>
+    <td>Ruby On Rails</td>
+
+</tr>
+
+
+</table> -->
+<!-- 
+**************************************************************** -->
+
+<!-- Create one nested list that first contains order list then unorderlist(disc) then again one order list(roman number)
+
+
+<ol>
+    <li>Apple
+        <ul>
+            <li>Ball</li>
+            <ol type="I">
+                <li>Cat</li>
+            </ol>
+        </ul>
+    </li>
+</ol> -->
+
+<!-- ****************************************************************** -->
+
+<!-- Write code to create a link to https://www.prepbytes.com
+
+<a href="https://www.prepbytes.com/" target="_blank">Prepbytes</a> -->
+
+<!-- ********************************************************************** -->
+
+<!-- Write a code to insert an image ?--
+
+<img src="people-child-children-family.jpg" alt="404 error" width="350px" height="250px"> -->
+
+<!-- ******************************************************************** -->
+
+<!-- Create a form contain input fields like name age email and contact
+
+<form action="index2.html">
+    
+<label for="name">Name</label><br>
+<input required type="text" name="name" id="name" value="" placeholder="Enter name"><br>
+
+<label for="age">Age</label><br>
+<input required type="number" name="age" id="age" value="" placeholder="Enter age"><br>
+
+<label for="email">E-mail</label><br>
+<input required type="email" name="email" id="email" value="" placeholder="Enter email"><br>
+
+<label for="contact">Contact</label><br>
+<input required type="tel" name="contact" id="contact" value="" placeholder="Enter contact Number"><br>
+
+<input type="submit" value="submit">
+
+</form> -->
+
+
+
+
+</body>
+</html>
